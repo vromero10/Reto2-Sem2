@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto 2</title>
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Formulario</h1>
+  </header>
+  <main>
+    <div>
+        <form>
+            <label id="lastaname">Lastname</label>
+            <br>
+            <input class="input"
+            type="text"
+            placeholder=""
+            id="lastaname"
+            minlength="6"
+            value=""
+            pattern="[A-Z a-z]+"
+            > 
+            <br>
+            <br>
+            <label id="firstname">Firstname</label>
+            <br>
+            <input class="input"
+            type="text"
+            placeholder=""
+            minlength="6"
+            id="firstname"
+            pattern="[A-Z a-z]{3,30}"
+            >
+            <br>
+            <br>
+            <label id="email">Email:</label>
+            <br>
+            <input class="input"
+            type="email"
+            placeholder=""
+            > 
+            <br>
+            <br>
+            <label id="company">Company</label>
+            <br>
+            <input class="input"
+            type="text"
+            placeholder=""
+            id="company"
+            minlength="6"
+            value=""
+            pattern="[A-Z a-z]+"
+            > 
+            <br>
+            <br>        
+            <input id="boton" type="submit" value="Enviar">
+        
+        </form>
+    </div>
+  </main>
+</body>
+</html>
